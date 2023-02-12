@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="UTF-8">
+		<title>Hello World!</title>
+		<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+		<link rel="stylesheet" href="./static/css/index.css">
+		<script src="./static/js/bootstrap.js"></script>
+		<script src="./static/js/jquery-3.6.3.min.js"></script>
+		<script src="./static/js/index.js"></script>
+		<link rel="stylesheet" href="./static/css/bootstrap.css">
+    </head>
+    <body>
+		<div class="input-group">
+			<input type="file" class="form-control" id="uploadFile">
+			<button type="button" class="btn" id="uploadBtn">上传</button>
+		</div>
+
+		<div class="progress" role="progressbar">
+			<div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 0%">上传进度</div>
+		</div>
+
+		<div class="card">
+			<h5 class="card-header">功能配置</h5>
+			<div class="card-body">
+				<div class="input-group-sm">
+					<label>xmlrpc地址:</label>
+					<input type="text" class="form-control" id="xmlrpcAddress">
+
+					<label>图片上传地址:</label>
+					<input type="text" class="form-control" id="uploadPath">
+
+					<label>用户名:</label>
+					<input type="text" class="form-control" id="username">
+
+					<label>密码:</label>
+					<input type="password" class="form-control" id="password">
+
+					<button type="button" class="btn" id="edit">编辑</button>
+					<button type="submit" class="btn" id="save">保存</button>
+				</div>
+			</div>
+		</div>
+    </body>
+</html>

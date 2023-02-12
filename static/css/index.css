@@ -1,0 +1,28 @@
+button.btn {
+    background-color: lightcyan;
+}
+
+div.input-group {
+    width: 80%;
+    margin: 2% 10%;
+}
+
+div.card {
+    width: 60%;
+    margin: 4% 20%;
+}
+
+div.progress {
+    width: 80%;
+    margin: auto 10%;
+}
+
+div.input-group-sm {
+    width: 90%;
+    margin: 5% 5%;
+}
+
+div.card-body button {
+    margin: 10px auto;
+    width: 49%;
+}

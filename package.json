@@ -1,0 +1,14 @@
+{
+  "name": "typechoarticleupload",
+  "version": "1.0.0",
+  "description": "Use to upload our article to our blog.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "loricpoem",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^22.0.0"
+  }
+}
